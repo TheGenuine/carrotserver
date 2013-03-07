@@ -1,16 +1,9 @@
 {
   "name": "carrot-server",
   "version": "0.0.1",
+  "private": true,
   "dependencies": {
-    "express": "2.5.x",
+    "express": "3.x",
     "nano": "3.3.x"
-  },
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
-  },
-  "nano": {
-  	"node": "0.8.x",
-  	"npm": "3.3.x"
   }
 }
