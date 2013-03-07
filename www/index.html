@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carrot Management System > Home</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+     <div class="navbar">
+        <div class="navbar-inner">
+          <a class="brand" href="index.html">Carrot Management System <span class="divider">/</span>
+          User: James</a> 
+          <div class="nav-collapse collapse navbar-responsive-collapse">
+            <ul class="nav">
+              <li class="active"><a href="index.html"><i class="icon-home"></i> Home</a></li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-eye-open"></i> Review <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="review_map.html">Map</a></li>
+                <li><a href="review_carrots.html">Carrots</a></li>
+              </ul>
+            </li>
+            <li><a href="statistics.html"><i class="icon-ok"></i> Statistics</a></li>
+            <li><a href="updates.html"><span class="badge badge-warning">4</span> Updates</a></li>
+            <li><a href="help.html"><i class="icon-question-sign"></i> Help</a></li>
+            <li><a href="logout.html"><i class="icon-off"></i> Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+            <h4>Current average moisture</h4>
+            <br><br>
+            <p>
+              <h2>78 %</h2>
+            </p>
+            <br><br><br>
+            <a href="review_officers.html">...more</a>
+          </div>
+
+          <div class="span4">
+            <h4>Carrots Status</h4>
+            <table class="table">
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Status</th>
+              </tr>
+              <tr>
+                <td>ff:48:d3:77</td>
+                <td>Rasberries</td>
+                <td>Ok</td>
+              </tr>
+              <tr>
+                <td>ff:48:d3:99</td>
+                <td>Strawberry</td>
+                <td>Ok</td>
+              </tr>
+              <tr>
+                <td>ff:48:d3:54</td>
+                <td>Apple tree</td>
+                <td>Error!</td>
+              </tr>
+            </table>
+            <a href="communication.html">...more</a>
+          </div>    
+
+          <div class="span4">
+            <br>
+              <h3><span class="badge badge-success">2</span> Days till next inspection</h3> 
+          </div> 
+
+        </div>
+      </div>
+  </body>
+</html>
